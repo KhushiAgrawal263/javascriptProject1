@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/43dcc20e7a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <title>Movies</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="navbar">
+        <div class="nav-items">
+          <div class="logo">365</div>
+          <a href="movie.html">Movies</a>
+          <a href="#">TV Series</a>
+          <a href="#">Audio</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="bg movie-bg">
+      <img src="img/bhuj.jpeg" alt="" />
+    </div>
+
+    <div class="search">
+      <div class="dropdown">
+        <div class="drop-btn">
+          <button class="bt">Genre &nbsp; &#9660;</button>
+        </div>
+        <div class="dropdown-content">
+          <button onclick="fun('all')">All</button>
+          <button onclick="fun('action')">Action</button>
+          <button onclick="fun('horror')">Horror</button>
+          <button onclick="fun('romance')">Romance</button>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-input s"
+          placeholder="Search your favourite movie title"
+          onkeydown="search(this)"
+        />
+      </div>
+    </div>
+
+    <div class="pop all">
+      <div class="movies">
+        <div class="movie-div">
+          <img src="img/pih6.jpg" alt="" />
+          <div class="desc">
+            <p class="desc-title">KGF</p>
+            <p class="desc-desc">sajbkb bhyfgbyhu bfewuh nfeuwhj</p>
+          </div>
+        </div>
+        <div class="movie-div">
+          <img src="img/pih7.jpg" alt="" />
+        </div>
+        <div class="movie-div">
+          <img src="img/pih8.jpg" alt="" />
+        </div>
+        <div class="movie-div">
+          <img src="img/pih9.jpg" alt="" />
+        </div>
+        <div class="movie-div"><img src="img/pih10.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih11.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih12.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia6.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia7.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia8.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia9.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia10.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia11.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia12.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir6.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir7.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir8.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir9.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir10.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir11.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir12.jpg" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="pop act hidden">
+      <div class="movies">
+        <div class="movie-div">
+          <img src="img/pia1.jpg" alt="" />
+          <div class="desc" name="mov">
+            <p class="desc-title">KGF</p>
+            <p class="desc-desc">sajbkb bhyfgbyhu bfewuh nfeuwhj</p>
+          </div>
+        </div>
+        <div class="movie-div"><img src="img/pia2.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia3.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia4.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia5.png" alt="" /></div>
+        <div class="movie-div"><img src="img/pia6.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia7.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia8.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia9.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia10.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia11.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pia12.jpg" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="pop horror hidden">
+      <div class="movies">
+        <div class="movie-div">
+          <img src="img/pih1.jpg" alt="" />
+          <div class="desc" name="mov">
+            <p class="desc-title">KGF</p>
+            <p class="desc-desc">sajbkb bhyfgbyhu bfewuh nfeuwhj</p>
+          </div>
+        </div>
+        <div class="movie-div"><img src="img/pih2.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih3.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih4.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih5.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih6.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih6.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih7.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih8.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih9.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih10.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih11.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pih12.jpg" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="pop romance hidden">
+      <div class="movies">
+        <div class="movie-div">
+          <img src="img/pir1.jpg" alt="" />
+          <div class="desc" name="mov">
+            <p class="desc-title">KGF</p>
+            <p class="desc-desc">sajbkb bhyfgbyhu bfewuh nfeuwhj</p>
+          </div>
+        </div>
+        <div class="movie-div"><img src="img/pir2.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir3.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir4.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir5.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir6.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir6.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir7.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir8.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir9.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir10.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir11.jpg" alt="" /></div>
+        <div class="movie-div"><img src="img/pir12.jpg" alt="" /></div>
+      </div>
+    </div>
+  </body>
+</html>
